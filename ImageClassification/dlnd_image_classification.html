@@ -11759,7 +11759,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11813,6 +11813,13 @@ div#notebook {
 
 
 <div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>CIFAR-10 Dataset: 171MB [04:21, 652KB/s]                               
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>All files found!
 </pre>
@@ -11849,7 +11856,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -16227,7 +16234,7 @@ height=351
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">normalize</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -16279,7 +16286,7 @@ height=351
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">one_hot_encode</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -16356,7 +16363,7 @@ height=351
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -16383,7 +16390,7 @@ height=351
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -16440,7 +16447,7 @@ height=351
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -16532,7 +16539,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv2d_maxpool</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">conv_num_outputs</span><span class="p">,</span> <span class="n">conv_ksize</span><span class="p">,</span> <span class="n">conv_strides</span><span class="p">,</span> <span class="n">pool_ksize</span><span class="p">,</span> <span class="n">pool_strides</span><span class="p">):</span>
@@ -16595,7 +16602,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">):</span>
@@ -16646,7 +16653,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fully_conn</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -16664,6 +16671,7 @@ Keep Prob Tests Passed.
     <span class="n">W</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">([</span><span class="n">number_inputs</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">],</span><span class="n">stddev</span><span class="o">=</span><span class="mf">0.1</span><span class="p">))</span>
     <span class="n">b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_outputs</span><span class="p">))</span>
     <span class="n">convFunc</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">W</span><span class="p">),</span> <span class="n">b</span><span class="p">)</span>
+    <span class="n">convFunc</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">convFunc</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">convFunc</span>
 
 
@@ -16706,7 +16714,7 @@ Tests Passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">output</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -16770,7 +16778,7 @@ Tests Passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv_net</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">):</span>
@@ -16911,7 +16919,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">train_neural_network</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">keep_probability</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">):</span>
@@ -16969,7 +16977,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_stats</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">,</span> <span class="n">cost</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">):</span>
@@ -17025,7 +17033,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: Tune Parameters</span>
@@ -17051,7 +17059,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -17082,26 +17090,26 @@ Neural Network Built!
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Checking the Training on a Single Batch...
-Epoch  1, CIFAR-10 Batch 1:  loss =  2.20743
+Epoch  1, CIFAR-10 Batch 1:  loss =  2.2633
+acc =  0.1742
+Epoch  2, CIFAR-10 Batch 1:  loss =  2.2126
+acc =  0.2064
+Epoch  3, CIFAR-10 Batch 1:  loss =  2.16134
+acc =  0.251
+Epoch  4, CIFAR-10 Batch 1:  loss =  2.1054
 acc =  0.2672
-Epoch  2, CIFAR-10 Batch 1:  loss =  2.03759
-acc =  0.3566
-Epoch  3, CIFAR-10 Batch 1:  loss =  1.8875
-acc =  0.3768
-Epoch  4, CIFAR-10 Batch 1:  loss =  1.74349
-acc =  0.412
-Epoch  5, CIFAR-10 Batch 1:  loss =  1.55813
-acc =  0.4416
-Epoch  6, CIFAR-10 Batch 1:  loss =  1.36702
-acc =  0.4596
-Epoch  7, CIFAR-10 Batch 1:  loss =  1.21531
-acc =  0.4682
-Epoch  8, CIFAR-10 Batch 1:  loss =  1.09461
-acc =  0.4778
-Epoch  9, CIFAR-10 Batch 1:  loss =  1.03362
-acc =  0.4948
-Epoch 10, CIFAR-10 Batch 1:  loss =  0.960718
-acc =  0.506
+Epoch  5, CIFAR-10 Batch 1:  loss =  2.06076
+acc =  0.2788
+Epoch  6, CIFAR-10 Batch 1:  loss =  2.03537
+acc =  0.294
+Epoch  7, CIFAR-10 Batch 1:  loss =  1.97225
+acc =  0.2908
+Epoch  8, CIFAR-10 Batch 1:  loss =  1.86173
+acc =  0.3078
+Epoch  9, CIFAR-10 Batch 1:  loss =  1.79051
+acc =  0.3096
+Epoch 10, CIFAR-10 Batch 1:  loss =  1.72544
+acc =  0.3146
 </pre>
 </div>
 </div>
@@ -17122,7 +17130,7 @@ acc =  0.506
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -17161,106 +17169,106 @@ acc =  0.506
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training...
-Epoch  1, CIFAR-10 Batch 1:  loss =  2.2662
-acc =  0.2712
-Epoch  1, CIFAR-10 Batch 2:  loss =  1.86316
-acc =  0.321
-Epoch  1, CIFAR-10 Batch 3:  loss =  1.59752
-acc =  0.3472
-Epoch  1, CIFAR-10 Batch 4:  loss =  1.66248
-acc =  0.4076
-Epoch  1, CIFAR-10 Batch 5:  loss =  1.55946
-acc =  0.426
-Epoch  2, CIFAR-10 Batch 1:  loss =  1.78956
-acc =  0.4406
-Epoch  2, CIFAR-10 Batch 2:  loss =  1.45585
-acc =  0.457
-Epoch  2, CIFAR-10 Batch 3:  loss =  1.16866
-acc =  0.4846
-Epoch  2, CIFAR-10 Batch 4:  loss =  1.31861
-acc =  0.496
-Epoch  2, CIFAR-10 Batch 5:  loss =  1.26667
-acc =  0.5066
-Epoch  3, CIFAR-10 Batch 1:  loss =  1.34125
-acc =  0.5084
-Epoch  3, CIFAR-10 Batch 2:  loss =  1.1781
-acc =  0.5184
-Epoch  3, CIFAR-10 Batch 3:  loss =  1.01065
-acc =  0.5018
-Epoch  3, CIFAR-10 Batch 4:  loss =  1.11906
-acc =  0.548
-Epoch  3, CIFAR-10 Batch 5:  loss =  1.04419
-acc =  0.537
-Epoch  4, CIFAR-10 Batch 1:  loss =  1.1436
-acc =  0.5496
-Epoch  4, CIFAR-10 Batch 2:  loss =  0.982457
-acc =  0.5654
-Epoch  4, CIFAR-10 Batch 3:  loss =  0.857046
-acc =  0.5428
-Epoch  4, CIFAR-10 Batch 4:  loss =  0.955116
-acc =  0.574
-Epoch  4, CIFAR-10 Batch 5:  loss =  0.873967
-acc =  0.5716
-Epoch  5, CIFAR-10 Batch 1:  loss =  1.00064
-acc =  0.5858
-Epoch  5, CIFAR-10 Batch 2:  loss =  0.832032
-acc =  0.5898
-Epoch  5, CIFAR-10 Batch 3:  loss =  0.69726
-acc =  0.5756
-Epoch  5, CIFAR-10 Batch 4:  loss =  0.789295
-acc =  0.6054
-Epoch  5, CIFAR-10 Batch 5:  loss =  0.729774
-acc =  0.5908
-Epoch  6, CIFAR-10 Batch 1:  loss =  0.886632
-acc =  0.6026
-Epoch  6, CIFAR-10 Batch 2:  loss =  0.682517
-acc =  0.6106
-Epoch  6, CIFAR-10 Batch 3:  loss =  0.580897
-acc =  0.5872
-Epoch  6, CIFAR-10 Batch 4:  loss =  0.632865
-acc =  0.6254
-Epoch  6, CIFAR-10 Batch 5:  loss =  0.59221
-acc =  0.5922
-Epoch  7, CIFAR-10 Batch 1:  loss =  0.74137
-acc =  0.6152
-Epoch  7, CIFAR-10 Batch 2:  loss =  0.55508
-acc =  0.6236
-Epoch  7, CIFAR-10 Batch 3:  loss =  0.456946
-acc =  0.6002
-Epoch  7, CIFAR-10 Batch 4:  loss =  0.521427
-acc =  0.642
-Epoch  7, CIFAR-10 Batch 5:  loss =  0.446436
-acc =  0.6204
-Epoch  8, CIFAR-10 Batch 1:  loss =  0.599605
-acc =  0.6298
-Epoch  8, CIFAR-10 Batch 2:  loss =  0.442074
-acc =  0.6352
-Epoch  8, CIFAR-10 Batch 3:  loss =  0.38457
-acc =  0.6118
-Epoch  8, CIFAR-10 Batch 4:  loss =  0.441609
-acc =  0.6452
-Epoch  8, CIFAR-10 Batch 5:  loss =  0.41156
-acc =  0.6236
-Epoch  9, CIFAR-10 Batch 1:  loss =  0.48399
-acc =  0.637
-Epoch  9, CIFAR-10 Batch 2:  loss =  0.333031
-acc =  0.6526
-Epoch  9, CIFAR-10 Batch 3:  loss =  0.325948
-acc =  0.6252
-Epoch  9, CIFAR-10 Batch 4:  loss =  0.394958
-acc =  0.6502
-Epoch  9, CIFAR-10 Batch 5:  loss =  0.347339
-acc =  0.628
-Epoch 10, CIFAR-10 Batch 1:  loss =  0.400349
-acc =  0.6426
-Epoch 10, CIFAR-10 Batch 2:  loss =  0.273119
-acc =  0.6478
-Epoch 10, CIFAR-10 Batch 3:  loss =  0.250067
-acc =  0.6516
-Epoch 10, CIFAR-10 Batch 4:  loss =  0.345882
-acc =  0.6516
-Epoch 10, CIFAR-10 Batch 5:  loss =  0.2712
-acc =  0.6394
+Epoch  1, CIFAR-10 Batch 1:  loss =  2.21954
+acc =  0.1684
+Epoch  1, CIFAR-10 Batch 2:  loss =  2.25087
+acc =  0.1834
+Epoch  1, CIFAR-10 Batch 3:  loss =  1.98435
+acc =  0.1986
+Epoch  1, CIFAR-10 Batch 4:  loss =  1.96976
+acc =  0.2274
+Epoch  1, CIFAR-10 Batch 5:  loss =  1.87272
+acc =  0.239
+Epoch  2, CIFAR-10 Batch 1:  loss =  2.02198
+acc =  0.2878
+Epoch  2, CIFAR-10 Batch 2:  loss =  1.86723
+acc =  0.3438
+Epoch  2, CIFAR-10 Batch 3:  loss =  1.51456
+acc =  0.35
+Epoch  2, CIFAR-10 Batch 4:  loss =  1.7325
+acc =  0.402
+Epoch  2, CIFAR-10 Batch 5:  loss =  1.5594
+acc =  0.406
+Epoch  3, CIFAR-10 Batch 1:  loss =  1.73247
+acc =  0.4334
+Epoch  3, CIFAR-10 Batch 2:  loss =  1.55117
+acc =  0.4234
+Epoch  3, CIFAR-10 Batch 3:  loss =  1.22186
+acc =  0.4258
+Epoch  3, CIFAR-10 Batch 4:  loss =  1.50765
+acc =  0.4708
+Epoch  3, CIFAR-10 Batch 5:  loss =  1.32824
+acc =  0.463
+Epoch  4, CIFAR-10 Batch 1:  loss =  1.56503
+acc =  0.4854
+Epoch  4, CIFAR-10 Batch 2:  loss =  1.32925
+acc =  0.4814
+Epoch  4, CIFAR-10 Batch 3:  loss =  1.00174
+acc =  0.4892
+Epoch  4, CIFAR-10 Batch 4:  loss =  1.23877
+acc =  0.5168
+Epoch  4, CIFAR-10 Batch 5:  loss =  1.16475
+acc =  0.4872
+Epoch  5, CIFAR-10 Batch 1:  loss =  1.35418
+acc =  0.5272
+Epoch  5, CIFAR-10 Batch 2:  loss =  1.13375
+acc =  0.5206
+Epoch  5, CIFAR-10 Batch 3:  loss =  0.898477
+acc =  0.508
+Epoch  5, CIFAR-10 Batch 4:  loss =  1.1111
+acc =  0.5516
+Epoch  5, CIFAR-10 Batch 5:  loss =  1.02306
+acc =  0.5232
+Epoch  6, CIFAR-10 Batch 1:  loss =  1.19763
+acc =  0.5556
+Epoch  6, CIFAR-10 Batch 2:  loss =  0.964635
+acc =  0.5476
+Epoch  6, CIFAR-10 Batch 3:  loss =  0.786884
+acc =  0.5294
+Epoch  6, CIFAR-10 Batch 4:  loss =  1.0224
+acc =  0.5704
+Epoch  6, CIFAR-10 Batch 5:  loss =  0.916229
+acc =  0.5438
+Epoch  7, CIFAR-10 Batch 1:  loss =  1.03269
+acc =  0.5796
+Epoch  7, CIFAR-10 Batch 2:  loss =  0.86448
+acc =  0.5782
+Epoch  7, CIFAR-10 Batch 3:  loss =  0.689806
+acc =  0.552
+Epoch  7, CIFAR-10 Batch 4:  loss =  0.937286
+acc =  0.5888
+Epoch  7, CIFAR-10 Batch 5:  loss =  0.826307
+acc =  0.5548
+Epoch  8, CIFAR-10 Batch 1:  loss =  0.892774
+acc =  0.5936
+Epoch  8, CIFAR-10 Batch 2:  loss =  0.77334
+acc =  0.6022
+Epoch  8, CIFAR-10 Batch 3:  loss =  0.599316
+acc =  0.5754
+Epoch  8, CIFAR-10 Batch 4:  loss =  0.852926
+acc =  0.61
+Epoch  8, CIFAR-10 Batch 5:  loss =  0.733892
+acc =  0.571
+Epoch  9, CIFAR-10 Batch 1:  loss =  0.77003
+acc =  0.5994
+Epoch  9, CIFAR-10 Batch 2:  loss =  0.69921
+acc =  0.612
+Epoch  9, CIFAR-10 Batch 3:  loss =  0.524235
+acc =  0.5952
+Epoch  9, CIFAR-10 Batch 4:  loss =  0.76916
+acc =  0.618
+Epoch  9, CIFAR-10 Batch 5:  loss =  0.637803
+acc =  0.581
+Epoch 10, CIFAR-10 Batch 1:  loss =  0.663218
+acc =  0.6078
+Epoch 10, CIFAR-10 Batch 2:  loss =  0.644775
+acc =  0.6146
+Epoch 10, CIFAR-10 Batch 3:  loss =  0.48024
+acc =  0.6022
+Epoch 10, CIFAR-10 Batch 4:  loss =  0.67303
+acc =  0.6284
+Epoch 10, CIFAR-10 Batch 5:  loss =  0.560176
+acc =  0.5896
 </pre>
 </div>
 </div>
